@@ -15,6 +15,9 @@
 		BC929A7D1BCEC59A008F5CAF /* otterRealmAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC929A7C1BCEC59A008F5CAF /* otterRealmAppTests.swift */; };
 		BC929A891BCECD67008F5CAF /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC929A881BCECD67008F5CAF /* SWRevealViewController.m */; };
 		BC929A8B1BCED3FC008F5CAF /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC929A8A1BCED3FC008F5CAF /* BackTableVC.swift */; };
+		BC929A8D1BCEDBE0008F5CAF /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC929A8C1BCEDBDF008F5CAF /* home.swift */; };
+		BC929A8F1BCEDDE8008F5CAF /* sports.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC929A8E1BCEDDE8008F5CAF /* sports.swift */; };
+		BC929A911BCEDE1A008F5CAF /* news.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC929A901BCEDE1A008F5CAF /* news.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		BC929A871BCECD67008F5CAF /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		BC929A881BCECD67008F5CAF /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		BC929A8A1BCED3FC008F5CAF /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
+		BC929A8C1BCEDBDF008F5CAF /* home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		BC929A8E1BCEDDE8008F5CAF /* sports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sports.swift; sourceTree = "<group>"; };
+		BC929A901BCEDE1A008F5CAF /* news.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = news.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +92,10 @@
 				BC929A661BCEC59A008F5CAF /* AppDelegate.swift */,
 				BC929A681BCEC59A008F5CAF /* ViewController.swift */,
 				BC929A6A1BCEC59A008F5CAF /* Main.storyboard */,
+				BC929A901BCEDE1A008F5CAF /* news.swift */,
+				BC929A8E1BCEDDE8008F5CAF /* sports.swift */,
 				BC929A8A1BCED3FC008F5CAF /* BackTableVC.swift */,
+				BC929A8C1BCEDBDF008F5CAF /* home.swift */,
 				BC929A6D1BCEC59A008F5CAF /* Images.xcassets */,
 				BC929A6F1BCEC59A008F5CAF /* LaunchScreen.xib */,
 				BC929A641BCEC59A008F5CAF /* Supporting Files */,
@@ -224,7 +233,10 @@
 			files = (
 				BC929A691BCEC59A008F5CAF /* ViewController.swift in Sources */,
 				BC929A671BCEC59A008F5CAF /* AppDelegate.swift in Sources */,
+				BC929A911BCEDE1A008F5CAF /* news.swift in Sources */,
+				BC929A8F1BCEDDE8008F5CAF /* sports.swift in Sources */,
 				BC929A8B1BCED3FC008F5CAF /* BackTableVC.swift in Sources */,
+				BC929A8D1BCEDBE0008F5CAF /* home.swift in Sources */,
 				BC929A891BCECD67008F5CAF /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
