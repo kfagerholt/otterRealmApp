@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC929A671BCEC59A008F5CAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC929A661BCEC59A008F5CAF /* AppDelegate.swift */; };
+		BC929A691BCEC59A008F5CAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC929A681BCEC59A008F5CAF /* ViewController.swift */; };
+		BC929A6C1BCEC59A008F5CAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC929A6A1BCEC59A008F5CAF /* Main.storyboard */; };
+		BC929A6E1BCEC59A008F5CAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC929A6D1BCEC59A008F5CAF /* Images.xcassets */; };
+		BC929A711BCEC59A008F5CAF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC929A6F1BCEC59A008F5CAF /* LaunchScreen.xib */; };
+		BC929A7D1BCEC59A008F5CAF /* otterRealmAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC929A7C1BCEC59A008F5CAF /* otterRealmAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC929A771BCEC59A008F5CAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC929A591BCEC59A008F5CAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC929A601BCEC59A008F5CAF;
+			remoteInfo = otterRealmApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC929A611BCEC59A008F5CAF /* otterRealmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = otterRealmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC929A651BCEC59A008F5CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC929A661BCEC59A008F5CAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC929A681BCEC59A008F5CAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC929A6B1BCEC59A008F5CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC929A6D1BCEC59A008F5CAF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC929A701BCEC59A008F5CAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BC929A761BCEC59A008F5CAF /* otterRealmAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = otterRealmAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC929A7B1BCEC59A008F5CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC929A7C1BCEC59A008F5CAF /* otterRealmAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otterRealmAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC929A5E1BCEC59A008F5CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC929A731BCEC59A008F5CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC929A581BCEC59A008F5CAF = {
+			isa = PBXGroup;
+			children = (
+				BC929A631BCEC59A008F5CAF /* otterRealmApp */,
+				BC929A791BCEC59A008F5CAF /* otterRealmAppTests */,
+				BC929A621BCEC59A008F5CAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC929A621BCEC59A008F5CAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC929A611BCEC59A008F5CAF /* otterRealmApp.app */,
+				BC929A761BCEC59A008F5CAF /* otterRealmAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC929A631BCEC59A008F5CAF /* otterRealmApp */ = {
+			isa = PBXGroup;
+			children = (
+				BC929A661BCEC59A008F5CAF /* AppDelegate.swift */,
+				BC929A681BCEC59A008F5CAF /* ViewController.swift */,
+				BC929A6A1BCEC59A008F5CAF /* Main.storyboard */,
+				BC929A6D1BCEC59A008F5CAF /* Images.xcassets */,
+				BC929A6F1BCEC59A008F5CAF /* LaunchScreen.xib */,
+				BC929A641BCEC59A008F5CAF /* Supporting Files */,
+			);
+			path = otterRealmApp;
+			sourceTree = "<group>";
+		};
+		BC929A641BCEC59A008F5CAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC929A651BCEC59A008F5CAF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC929A791BCEC59A008F5CAF /* otterRealmAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC929A7C1BCEC59A008F5CAF /* otterRealmAppTests.swift */,
+				BC929A7A1BCEC59A008F5CAF /* Supporting Files */,
+			);
+			path = otterRealmAppTests;
+			sourceTree = "<group>";
+		};
+		BC929A7A1BCEC59A008F5CAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC929A7B1BCEC59A008F5CAF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC929A601BCEC59A008F5CAF /* otterRealmApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC929A801BCEC59A008F5CAF /* Build configuration list for PBXNativeTarget "otterRealmApp" */;
+			buildPhases = (
+				BC929A5D1BCEC59A008F5CAF /* Sources */,
+				BC929A5E1BCEC59A008F5CAF /* Frameworks */,
+				BC929A5F1BCEC59A008F5CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = otterRealmApp;
+			productName = otterRealmApp;
+			productReference = BC929A611BCEC59A008F5CAF /* otterRealmApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC929A751BCEC59A008F5CAF /* otterRealmAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC929A831BCEC59A008F5CAF /* Build configuration list for PBXNativeTarget "otterRealmAppTests" */;
+			buildPhases = (
+				BC929A721BCEC59A008F5CAF /* Sources */,
+				BC929A731BCEC59A008F5CAF /* Frameworks */,
+				BC929A741BCEC59A008F5CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC929A781BCEC59A008F5CAF /* PBXTargetDependency */,
+			);
+			name = otterRealmAppTests;
+			productName = otterRealmAppTests;
+			productReference = BC929A761BCEC59A008F5CAF /* otterRealmAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC929A591BCEC59A008F5CAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Kjersti Fagerholt";
+				TargetAttributes = {
+					BC929A601BCEC59A008F5CAF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					BC929A751BCEC59A008F5CAF = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = BC929A601BCEC59A008F5CAF;
+					};
+				};
+			};
+			buildConfigurationList = BC929A5C1BCEC59A008F5CAF /* Build configuration list for PBXProject "otterRealmApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC929A581BCEC59A008F5CAF;
+			productRefGroup = BC929A621BCEC59A008F5CAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC929A601BCEC59A008F5CAF /* otterRealmApp */,
+				BC929A751BCEC59A008F5CAF /* otterRealmAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC929A5F1BCEC59A008F5CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC929A6C1BCEC59A008F5CAF /* Main.storyboard in Resources */,
+				BC929A711BCEC59A008F5CAF /* LaunchScreen.xib in Resources */,
+				BC929A6E1BCEC59A008F5CAF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC929A741BCEC59A008F5CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC929A5D1BCEC59A008F5CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC929A691BCEC59A008F5CAF /* ViewController.swift in Sources */,
+				BC929A671BCEC59A008F5CAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC929A721BCEC59A008F5CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC929A7D1BCEC59A008F5CAF /* otterRealmAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC929A781BCEC59A008F5CAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC929A601BCEC59A008F5CAF /* otterRealmApp */;
+			targetProxy = BC929A771BCEC59A008F5CAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC929A6A1BCEC59A008F5CAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC929A6B1BCEC59A008F5CAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC929A6F1BCEC59A008F5CAF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC929A701BCEC59A008F5CAF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC929A7E1BCEC59A008F5CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC929A7F1BCEC59A008F5CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC929A811BCEC59A008F5CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = otterRealmApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC929A821BCEC59A008F5CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = otterRealmApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC929A841BCEC59A008F5CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = otterRealmAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/otterRealmApp.app/otterRealmApp";
+			};
+			name = Debug;
+		};
+		BC929A851BCEC59A008F5CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = otterRealmAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/otterRealmApp.app/otterRealmApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC929A5C1BCEC59A008F5CAF /* Build configuration list for PBXProject "otterRealmApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC929A7E1BCEC59A008F5CAF /* Debug */,
+				BC929A7F1BCEC59A008F5CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC929A801BCEC59A008F5CAF /* Build configuration list for PBXNativeTarget "otterRealmApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC929A811BCEC59A008F5CAF /* Debug */,
+				BC929A821BCEC59A008F5CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC929A831BCEC59A008F5CAF /* Build configuration list for PBXNativeTarget "otterRealmAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC929A841BCEC59A008F5CAF /* Debug */,
+				BC929A851BCEC59A008F5CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC929A591BCEC59A008F5CAF /* Project object */;
+}
