@@ -42,11 +42,26 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JfS-Bd-box">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TRW-8i-o6c">
-                                        <rect key="frame" x="8" y="72" width="304" height="115"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q0T-Dj-5an">
+                                        <rect key="frame" x="8" y="71" width="304" height="140"/>
+                                        <subviews>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Ca-ht-gwr">
+                                                <rect key="frame" x="0.0" y="0.0" width="304" height="140"/>
+                                            </scrollView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.51187137063611887" blue="0.80660319985537676" alpha="0.35000000000000003" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="140" id="BKR-WT-sCI"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="Q0T-Dj-5an" firstAttribute="leading" secondItem="JfS-Bd-box" secondAttribute="leadingMargin" id="Wlg-uU-7Qg"/>
+                                    <constraint firstItem="Q0T-Dj-5an" firstAttribute="top" secondItem="JfS-Bd-box" secondAttribute="top" constant="71" id="dUV-Di-bJy"/>
+                                    <constraint firstItem="Q0T-Dj-5an" firstAttribute="centerX" secondItem="JfS-Bd-box" secondAttribute="centerX" id="dgu-PE-WNx"/>
+                                    <constraint firstAttribute="bottom" secondItem="Q0T-Dj-5an" secondAttribute="bottom" constant="789" id="flj-r8-QHT"/>
+                                    <constraint firstItem="Q0T-Dj-5an" firstAttribute="trailing" secondItem="JfS-Bd-box" secondAttribute="trailingMargin" id="vgd-D2-BRb"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
