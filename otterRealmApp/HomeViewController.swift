@@ -9,8 +9,10 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-    @IBOutlet weak var menuButton: UIBarButtonItem!
     @IBOutlet weak var Scroller: UIScrollView!
+    @IBOutlet weak var menuButton: UIBarButtonItem!
+    @IBOutlet weak var ScrollerImages: UIScrollView!
+   
 
 
     override func viewDidLoad() {
@@ -24,7 +26,7 @@ class HomeViewController: UIViewController {
         
         
         Scroller.contentSize.height = 1000
-        
+        ScrollerImages.contentSize.width = 400
         
     }
 

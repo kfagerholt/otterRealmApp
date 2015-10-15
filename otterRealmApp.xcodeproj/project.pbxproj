@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC186D531BCF0F0B00DBB92E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC186D521BCF0F0B00DBB92E /* HomeViewController.swift */; };
 		BC186D551BCF13C000DBB92E /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC186D541BCF13C000DBB92E /* NewsViewController.swift */; };
 		BC436F8A1BD04565004C4545 /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC436F891BD04565004C4545 /* SportsViewController.swift */; };
+		BC436F8C1BD05955004C4545 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC436F8B1BD05955004C4545 /* HomeViewController.swift */; };
 		BC929A671BCEC59A008F5CAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC929A661BCEC59A008F5CAF /* AppDelegate.swift */; };
 		BC929A691BCEC59A008F5CAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC929A681BCEC59A008F5CAF /* ViewController.swift */; };
 		BC929A6C1BCEC59A008F5CAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC929A6A1BCEC59A008F5CAF /* Main.storyboard */; };
@@ -30,9 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BC186D521BCF0F0B00DBB92E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BC186D541BCF13C000DBB92E /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		BC436F891BD04565004C4545 /* SportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
+		BC436F8B1BD05955004C4545 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = otterRealmApp/HomeViewController.swift; sourceTree = "<group>"; };
 		BC929A611BCEC59A008F5CAF /* otterRealmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = otterRealmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC929A651BCEC59A008F5CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC929A661BCEC59A008F5CAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +69,7 @@
 		BC929A581BCEC59A008F5CAF = {
 			isa = PBXGroup;
 			children = (
+				BC436F8B1BD05955004C4545 /* HomeViewController.swift */,
 				BC186D541BCF13C000DBB92E /* NewsViewController.swift */,
 				BC929A631BCEC59A008F5CAF /* otterRealmApp */,
 				BC929A791BCEC59A008F5CAF /* otterRealmAppTests */,
@@ -91,7 +92,6 @@
 				BC929A661BCEC59A008F5CAF /* AppDelegate.swift */,
 				BC929A681BCEC59A008F5CAF /* ViewController.swift */,
 				BC929A6A1BCEC59A008F5CAF /* Main.storyboard */,
-				BC186D521BCF0F0B00DBB92E /* HomeViewController.swift */,
 				BC436F891BD04565004C4545 /* SportsViewController.swift */,
 				BC929A6D1BCEC59A008F5CAF /* Images.xcassets */,
 				BC929A6F1BCEC59A008F5CAF /* LaunchScreen.xib */,
@@ -230,10 +230,10 @@
 			files = (
 				BC929A691BCEC59A008F5CAF /* ViewController.swift in Sources */,
 				BC929A671BCEC59A008F5CAF /* AppDelegate.swift in Sources */,
-				BC186D531BCF0F0B00DBB92E /* HomeViewController.swift in Sources */,
 				BC436F8A1BD04565004C4545 /* SportsViewController.swift in Sources */,
 				BC929A891BCECD67008F5CAF /* SWRevealViewController.m in Sources */,
 				BC186D551BCF13C000DBB92E /* NewsViewController.swift in Sources */,
+				BC436F8C1BD05955004C4545 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

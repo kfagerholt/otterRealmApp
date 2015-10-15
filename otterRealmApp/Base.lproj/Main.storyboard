@@ -45,7 +45,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q0T-Dj-5an">
                                         <rect key="frame" x="8" y="71" width="304" height="140"/>
                                         <subviews>
-                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Ca-ht-gwr">
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ca-ht-gwr">
                                                 <rect key="frame" x="0.0" y="0.0" width="304" height="140"/>
                                             </scrollView>
                                         </subviews>
@@ -78,8 +78,9 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="1000"/>
                     <connections>
-                        <outlet property="Scroller" destination="JfS-Bd-box" id="HET-Pw-BTV"/>
-                        <outlet property="menuButton" destination="sl9-4Y-4cK" id="kFO-fN-yH5"/>
+                        <outlet property="Scroller" destination="JfS-Bd-box" id="neX-IS-dIr"/>
+                        <outlet property="ScrollerImages" destination="7Ca-ht-gwr" id="GOS-e9-A4P"/>
+                        <outlet property="menuButton" destination="sl9-4Y-4cK" id="Llm-S7-4GB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L4D-io-CYu" userLabel="First Responder" sceneMemberID="firstResponder"/>
