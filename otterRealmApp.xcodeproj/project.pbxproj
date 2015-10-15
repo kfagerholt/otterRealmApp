@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BC186D531BCF0F0B00DBB92E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC186D521BCF0F0B00DBB92E /* HomeViewController.swift */; };
 		BC186D551BCF13C000DBB92E /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC186D541BCF13C000DBB92E /* NewsViewController.swift */; };
+		BC436F8A1BD04565004C4545 /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC436F891BD04565004C4545 /* SportsViewController.swift */; };
 		BC929A671BCEC59A008F5CAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC929A661BCEC59A008F5CAF /* AppDelegate.swift */; };
 		BC929A691BCEC59A008F5CAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC929A681BCEC59A008F5CAF /* ViewController.swift */; };
 		BC929A6C1BCEC59A008F5CAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC929A6A1BCEC59A008F5CAF /* Main.storyboard */; };
@@ -16,9 +17,6 @@
 		BC929A711BCEC59A008F5CAF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC929A6F1BCEC59A008F5CAF /* LaunchScreen.xib */; };
 		BC929A7D1BCEC59A008F5CAF /* otterRealmAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC929A7C1BCEC59A008F5CAF /* otterRealmAppTests.swift */; };
 		BC929A891BCECD67008F5CAF /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC929A881BCECD67008F5CAF /* SWRevealViewController.m */; };
-		BC929A8D1BCEDBE0008F5CAF /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC929A8C1BCEDBDF008F5CAF /* home.swift */; };
-		BC929A8F1BCEDDE8008F5CAF /* sports.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC929A8E1BCEDDE8008F5CAF /* sports.swift */; };
-		BC929A911BCEDE1A008F5CAF /* news.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC929A901BCEDE1A008F5CAF /* news.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +32,7 @@
 /* Begin PBXFileReference section */
 		BC186D521BCF0F0B00DBB92E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BC186D541BCF13C000DBB92E /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		BC436F891BD04565004C4545 /* SportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
 		BC929A611BCEC59A008F5CAF /* otterRealmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = otterRealmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC929A651BCEC59A008F5CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC929A661BCEC59A008F5CAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,9 +46,6 @@
 		BC929A861BCECD66008F5CAF /* otterRealmApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "otterRealmApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		BC929A871BCECD67008F5CAF /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		BC929A881BCECD67008F5CAF /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
-		BC929A8C1BCEDBDF008F5CAF /* home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
-		BC929A8E1BCEDDE8008F5CAF /* sports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sports.swift; sourceTree = "<group>"; };
-		BC929A901BCEDE1A008F5CAF /* news.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = news.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +92,7 @@
 				BC929A681BCEC59A008F5CAF /* ViewController.swift */,
 				BC929A6A1BCEC59A008F5CAF /* Main.storyboard */,
 				BC186D521BCF0F0B00DBB92E /* HomeViewController.swift */,
-				BC929A901BCEDE1A008F5CAF /* news.swift */,
-				BC929A8E1BCEDDE8008F5CAF /* sports.swift */,
-				BC929A8C1BCEDBDF008F5CAF /* home.swift */,
+				BC436F891BD04565004C4545 /* SportsViewController.swift */,
 				BC929A6D1BCEC59A008F5CAF /* Images.xcassets */,
 				BC929A6F1BCEC59A008F5CAF /* LaunchScreen.xib */,
 				BC929A641BCEC59A008F5CAF /* SWRevealViewController */,
@@ -236,10 +230,8 @@
 			files = (
 				BC929A691BCEC59A008F5CAF /* ViewController.swift in Sources */,
 				BC929A671BCEC59A008F5CAF /* AppDelegate.swift in Sources */,
-				BC929A911BCEDE1A008F5CAF /* news.swift in Sources */,
-				BC929A8F1BCEDDE8008F5CAF /* sports.swift in Sources */,
-				BC929A8D1BCEDBE0008F5CAF /* home.swift in Sources */,
 				BC186D531BCF0F0B00DBB92E /* HomeViewController.swift in Sources */,
+				BC436F8A1BD04565004C4545 /* SportsViewController.swift in Sources */,
 				BC929A891BCECD67008F5CAF /* SWRevealViewController.m in Sources */,
 				BC186D551BCF13C000DBB92E /* NewsViewController.swift in Sources */,
 			);

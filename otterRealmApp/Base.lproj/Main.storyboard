@@ -38,19 +38,7 @@
                     <view key="view" contentMode="scaleToFill" id="RRg-We-olq">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="menu item 1 " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2xb-Ws-Kgg">
-                                <rect key="frame" x="250" y="289" width="100" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="centerY" secondItem="2xb-Ws-Kgg" secondAttribute="centerY" constant="0.5" id="7JK-I0-C1u"/>
-                            <constraint firstAttribute="centerX" secondItem="2xb-Ws-Kgg" secondAttribute="centerX" id="9We-ZN-Hul"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="1jM-17-5Dn">
                         <barButtonItem key="leftBarButtonItem" title="&lt;" id="sl9-4Y-4cK"/>
@@ -63,10 +51,10 @@
             </objects>
             <point key="canvasLocation" x="2610" y="664"/>
         </scene>
-        <!--View Controller-->
+        <!--News View Controller-->
         <scene sceneID="nNK-d6-RTz">
             <objects>
-                <viewController id="SXo-m7-P1R" sceneMemberID="viewController">
+                <viewController id="SXo-m7-P1R" customClass="NewsViewController" customModule="otterRealmApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9io-dJ-2gN"/>
                         <viewControllerLayoutGuide type="bottom" id="pRC-iP-3ot"/>
@@ -84,31 +72,25 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="cSj-gZ-wBm" firstAttribute="leading" secondItem="3OE-Yf-Kzz" secondAttribute="leadingMargin" constant="236" id="0GI-fw-OsJ"/>
-                            <constraint firstItem="cSj-gZ-wBm" firstAttribute="top" secondItem="9io-dJ-2gN" secondAttribute="bottom" constant="225" id="7og-4W-q11"/>
-                            <constraint firstItem="pRC-iP-3ot" firstAttribute="top" secondItem="cSj-gZ-wBm" secondAttribute="bottom" constant="290" id="KQp-lb-Vp9"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="cSj-gZ-wBm" secondAttribute="trailing" constant="236" id="qIa-B0-2wL"/>
-                            <constraint firstItem="cSj-gZ-wBm" firstAttribute="top" secondItem="9io-dJ-2gN" secondAttribute="bottom" constant="269" id="qId-v7-PMb"/>
+                            <constraint firstItem="cSj-gZ-wBm" firstAttribute="top" secondItem="9io-dJ-2gN" secondAttribute="bottom" constant="225" id="iN7-Wi-I4F"/>
+                            <constraint firstItem="cSj-gZ-wBm" firstAttribute="centerX" secondItem="3OE-Yf-Kzz" secondAttribute="centerX" id="mjg-oL-bnd"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="qId-v7-PMb"/>
-                                <exclude reference="KQp-lb-Vp9"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="133-aq-QlS">
                         <barButtonItem key="leftBarButtonItem" title="&lt;" id="vqx-8w-q8i"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="vqx-8w-q8i" id="xy4-BL-KO4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V3v-3t-7Ln" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3414" y="1394"/>
         </scene>
-        <!--View Controller-->
+        <!--Sports View Controller-->
         <scene sceneID="MaO-7A-63G">
             <objects>
-                <viewController id="YXG-Tg-nau" sceneMemberID="viewController">
+                <viewController id="YXG-Tg-nau" customClass="SportsViewController" customModule="otterRealmApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hHY-rz-yQ2"/>
                         <viewControllerLayoutGuide type="bottom" id="kuF-KL-9N5"/>
@@ -126,22 +108,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="TkY-MD-pLi" firstAttribute="leading" secondItem="4Oq-9D-4CS" secondAttribute="leadingMargin" constant="236" id="RD3-MV-kXg"/>
-                            <constraint firstItem="kuF-KL-9N5" firstAttribute="top" secondItem="TkY-MD-pLi" secondAttribute="bottom" constant="290" id="Xuv-Jk-ZUR"/>
-                            <constraint firstItem="TkY-MD-pLi" firstAttribute="top" secondItem="hHY-rz-yQ2" secondAttribute="bottom" constant="269" id="dN5-Zn-9Z6"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="TkY-MD-pLi" secondAttribute="trailing" constant="236" id="hzc-rN-e0c"/>
-                            <constraint firstItem="TkY-MD-pLi" firstAttribute="top" secondItem="hHY-rz-yQ2" secondAttribute="bottom" constant="225" id="yr8-pf-rCp"/>
+                            <constraint firstItem="TkY-MD-pLi" firstAttribute="centerX" secondItem="4Oq-9D-4CS" secondAttribute="centerX" id="56B-aV-jWe"/>
+                            <constraint firstItem="TkY-MD-pLi" firstAttribute="top" secondItem="hHY-rz-yQ2" secondAttribute="bottom" constant="225" id="IF9-v5-PYF"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="dN5-Zn-9Z6"/>
-                                <exclude reference="Xuv-Jk-ZUR"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="sUz-la-nuY">
                         <barButtonItem key="leftBarButtonItem" title="&lt;" id="E8u-24-fft"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="E8u-24-fft" id="d2l-C6-RY9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hb4-1d-9hh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

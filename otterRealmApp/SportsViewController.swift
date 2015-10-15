@@ -1,15 +1,14 @@
 //
-//  NewsViewController.swift
+//  SportsViewController.swift
 //  otterRealmApp
 //
-//  Created by Kjersti Fagerholt on 10/14/15.
+//  Created by Kjersti Fagerholt on 10/15/15.
 //  Copyright (c) 2015 Kjersti Fagerholt. All rights reserved.
 //
 
 import UIKit
 
-class NewsViewController: UIViewController {
-
+class SportsViewController: UIViewController {
     @IBOutlet weak var menuButton: UIBarButtonItem!
 
     override func viewDidLoad() {
@@ -19,6 +18,7 @@ class NewsViewController: UIViewController {
             menuButton.action = "revealToggle:"
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
