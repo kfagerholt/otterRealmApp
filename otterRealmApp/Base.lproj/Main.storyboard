@@ -5,6 +5,21 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--Article View Controller-->
+        <scene sceneID="V9o-db-Lgq">
+            <objects>
+                <viewController id="K5q-W4-swB" userLabel="Article View Controller" customClass="ArticleViewController" customModule="otterRealmApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="SIZ-6e-bgX">
+                        <barButtonItem key="leftBarButtonItem" title="&lt;" id="Evy-Gi-Svn"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="SIZ-6e-bgX" id="b5i-ho-ZHH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VVY-qc-ohg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1105" y="70"/>
+        </scene>
         <!--Reveal View Controller-->
         <scene sceneID="61S-Yx-CiQ">
             <objects>
@@ -85,7 +100,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L4D-io-CYu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2610" y="664"/>
+            <point key="canvasLocation" x="3422" y="664"/>
         </scene>
         <!--News View Controller-->
         <scene sceneID="nNK-d6-RTz">
@@ -123,41 +138,124 @@
             </objects>
             <point key="canvasLocation" x="3414" y="1394"/>
         </scene>
-        <!--Sports View Controller-->
+        <!--Article View Controller-->
         <scene sceneID="MaO-7A-63G">
             <objects>
-                <viewController id="YXG-Tg-nau" customClass="SportsViewController" customModule="otterRealmApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="YXG-Tg-nau" userLabel="Article View Controller" customClass="ArticleViewController" customModule="otterRealmApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hHY-rz-yQ2"/>
                         <viewControllerLayoutGuide type="bottom" id="kuF-KL-9N5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4Oq-9D-4CS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menu item 3" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TkY-MD-pLi">
-                                <rect key="frame" x="252" y="289" width="96" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KGb-Hh-Cis">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4PE-c1-fz1">
+                                        <rect key="frame" x="8" y="20" width="584" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YSa-vB-qA9">
+                                        <rect key="frame" x="8" y="177" width="584" height="160"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beach" translatesAutoresizingMaskIntoConstraints="NO" id="In1-Iz-1dx">
+                                                <rect key="frame" x="8" y="5" width="205" height="149"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bike" translatesAutoresizingMaskIntoConstraints="NO" id="3wd-lC-n9g">
+                                                <rect key="frame" x="221" y="5" width="205" height="149"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beach" translatesAutoresizingMaskIntoConstraints="NO" id="Rzk-Ol-oFQ">
+                                                <rect key="frame" x="434" y="5" width="205" height="149"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.51187137059999999" blue="0.80660319989999996" alpha="0.34999999999999998" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="160" id="pWT-5p-OhC"/>
+                                        </constraints>
+                                    </scrollView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZ4-fT-HeG">
+                                        <rect key="frame" x="8" y="345" width="584" height="498"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="498" id="y1O-Jp-Nyf"/>
+                                        </constraints>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JD3-i5-rYV">
+                                        <rect key="frame" x="8" y="49" width="584" height="120"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yu6-4I-ssX">
+                                        <rect key="frame" x="8" y="851" width="584" height="128"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="128" id="YdE-wc-ekn"/>
+                                        </constraints>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UVM-cm-TyW">
+                                        <rect key="frame" x="590" y="182" width="205" height="149"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.30724747969999999" green="1" blue="0.22150976450000001" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Yu6-4I-ssX" firstAttribute="trailing" secondItem="JD3-i5-rYV" secondAttribute="trailing" id="AJs-KU-ikB"/>
+                                    <constraint firstItem="YSa-vB-qA9" firstAttribute="top" secondItem="JD3-i5-rYV" secondAttribute="bottom" constant="8" symbolic="YES" id="Bzk-cC-aba"/>
+                                    <constraint firstItem="Yu6-4I-ssX" firstAttribute="leading" secondItem="UZ4-fT-HeG" secondAttribute="leading" id="C77-ff-xy9"/>
+                                    <constraint firstItem="Yu6-4I-ssX" firstAttribute="top" secondItem="UZ4-fT-HeG" secondAttribute="bottom" constant="8" symbolic="YES" id="EJa-dC-5eX"/>
+                                    <constraint firstItem="4PE-c1-fz1" firstAttribute="leading" secondItem="KGb-Hh-Cis" secondAttribute="leading" constant="8" id="Guf-KO-o6h"/>
+                                    <constraint firstItem="Yu6-4I-ssX" firstAttribute="leading" secondItem="JD3-i5-rYV" secondAttribute="leading" id="IAf-C1-hW3"/>
+                                    <constraint firstAttribute="trailing" secondItem="4PE-c1-fz1" secondAttribute="trailing" constant="8" id="JG3-Wh-8g3"/>
+                                    <constraint firstItem="4PE-c1-fz1" firstAttribute="top" secondItem="KGb-Hh-Cis" secondAttribute="top" constant="20" symbolic="YES" id="PGz-f5-rJO"/>
+                                    <constraint firstItem="Yu6-4I-ssX" firstAttribute="leading" secondItem="YSa-vB-qA9" secondAttribute="leading" id="SI0-uW-s5G"/>
+                                    <constraint firstItem="Yu6-4I-ssX" firstAttribute="top" secondItem="UZ4-fT-HeG" secondAttribute="bottom" constant="8" id="Tzb-xv-Cza"/>
+                                    <constraint firstItem="YSa-vB-qA9" firstAttribute="top" secondItem="JD3-i5-rYV" secondAttribute="bottom" constant="8" id="Wrj-gQ-Znt"/>
+                                    <constraint firstItem="Yu6-4I-ssX" firstAttribute="trailing" secondItem="UZ4-fT-HeG" secondAttribute="trailing" id="Yah-Gq-ARp"/>
+                                    <constraint firstAttribute="bottom" secondItem="Yu6-4I-ssX" secondAttribute="bottom" constant="21" id="Z4E-cd-rVE"/>
+                                    <constraint firstItem="Yu6-4I-ssX" firstAttribute="leading" secondItem="4PE-c1-fz1" secondAttribute="leading" id="bW8-fB-tgU"/>
+                                    <constraint firstItem="JD3-i5-rYV" firstAttribute="top" secondItem="4PE-c1-fz1" secondAttribute="bottom" constant="8" symbolic="YES" id="eVY-Mr-M1j"/>
+                                    <constraint firstItem="UZ4-fT-HeG" firstAttribute="top" secondItem="YSa-vB-qA9" secondAttribute="bottom" constant="8" symbolic="YES" id="fnv-Xe-DwY"/>
+                                    <constraint firstAttribute="centerX" secondItem="4PE-c1-fz1" secondAttribute="centerX" id="iJB-Sc-xb6"/>
+                                    <constraint firstItem="Yu6-4I-ssX" firstAttribute="top" secondItem="KGb-Hh-Cis" secondAttribute="top" constant="851" id="jcL-fP-aAN"/>
+                                    <constraint firstItem="UZ4-fT-HeG" firstAttribute="top" secondItem="YSa-vB-qA9" secondAttribute="bottom" constant="8" id="lgK-v8-qyF"/>
+                                    <constraint firstItem="Yu6-4I-ssX" firstAttribute="trailing" secondItem="YSa-vB-qA9" secondAttribute="trailing" id="lqo-Z4-UGZ"/>
+                                    <constraint firstItem="Yu6-4I-ssX" firstAttribute="trailing" secondItem="4PE-c1-fz1" secondAttribute="trailing" id="nba-yp-87h"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="TkY-MD-pLi" firstAttribute="centerX" secondItem="4Oq-9D-4CS" secondAttribute="centerX" id="56B-aV-jWe"/>
-                            <constraint firstItem="TkY-MD-pLi" firstAttribute="top" secondItem="hHY-rz-yQ2" secondAttribute="bottom" constant="225" id="IF9-v5-PYF"/>
+                            <constraint firstItem="KGb-Hh-Cis" firstAttribute="leading" secondItem="4Oq-9D-4CS" secondAttribute="leadingMargin" constant="-16" id="e3c-rr-NZe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KGb-Hh-Cis" secondAttribute="trailing" constant="-16" id="kst-Zx-L1z"/>
+                            <constraint firstItem="KGb-Hh-Cis" firstAttribute="top" secondItem="4Oq-9D-4CS" secondAttribute="topMargin" id="rls-xl-ohQ"/>
+                            <constraint firstItem="kuF-KL-9N5" firstAttribute="top" secondItem="KGb-Hh-Cis" secondAttribute="bottom" id="svJ-au-y6o"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="sUz-la-nuY">
                         <barButtonItem key="leftBarButtonItem" title="&lt;" id="E8u-24-fft"/>
                     </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="1000"/>
                     <connections>
+                        <outlet property="imageScroll" destination="YSa-vB-qA9" id="f2h-zg-ERT"/>
+                        <outlet property="mainScroll" destination="KGb-Hh-Cis" id="c0R-Dh-bFW"/>
                         <outlet property="menuButton" destination="E8u-24-fft" id="d2l-C6-RY9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hb4-1d-9hh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3414" y="2094"/>
+            <point key="canvasLocation" x="3414" y="2294"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="gs2-co-yqr">
@@ -268,7 +366,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0VN-So-aYZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1798" y="664"/>
+            <point key="canvasLocation" x="2610" y="664"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="DqH-UC-vyH">
@@ -307,7 +405,11 @@
             <point key="canvasLocation" x="2602" y="2094"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="beach" width="1002" height="666"/>
+        <image name="bike" width="864" height="1296"/>
+    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Twe-ZP-hkZ"/>
+        <segue reference="9LU-1p-QJt"/>
     </inferredMetricsTieBreakers>
 </document>

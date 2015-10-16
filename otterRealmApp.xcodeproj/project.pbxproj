@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BC186D551BCF13C000DBB92E /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC186D541BCF13C000DBB92E /* NewsViewController.swift */; };
-		BC436F8A1BD04565004C4545 /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC436F891BD04565004C4545 /* SportsViewController.swift */; };
+		BC436F8A1BD04565004C4545 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC436F891BD04565004C4545 /* ArticleViewController.swift */; };
 		BC436F8C1BD05955004C4545 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC436F8B1BD05955004C4545 /* HomeViewController.swift */; };
 		BC929A671BCEC59A008F5CAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC929A661BCEC59A008F5CAF /* AppDelegate.swift */; };
 		BC929A691BCEC59A008F5CAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC929A681BCEC59A008F5CAF /* ViewController.swift */; };
@@ -17,6 +17,7 @@
 		BC929A711BCEC59A008F5CAF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC929A6F1BCEC59A008F5CAF /* LaunchScreen.xib */; };
 		BC929A7D1BCEC59A008F5CAF /* otterRealmAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC929A7C1BCEC59A008F5CAF /* otterRealmAppTests.swift */; };
 		BC929A891BCECD67008F5CAF /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC929A881BCECD67008F5CAF /* SWRevealViewController.m */; };
+		BCAB28EB1BD180AA004C82EA /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB28EA1BD180AA004C82EA /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +32,7 @@
 
 /* Begin PBXFileReference section */
 		BC186D541BCF13C000DBB92E /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
-		BC436F891BD04565004C4545 /* SportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
+		BC436F891BD04565004C4545 /* ArticleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewController.swift; sourceTree = "<group>"; };
 		BC436F8B1BD05955004C4545 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = otterRealmApp/HomeViewController.swift; sourceTree = "<group>"; };
 		BC929A611BCEC59A008F5CAF /* otterRealmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = otterRealmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC929A651BCEC59A008F5CAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +47,7 @@
 		BC929A861BCECD66008F5CAF /* otterRealmApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "otterRealmApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		BC929A871BCECD67008F5CAF /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		BC929A881BCECD67008F5CAF /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		BCAB28EA1BD180AA004C82EA /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Article.swift; path = Models/Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +94,8 @@
 				BC929A661BCEC59A008F5CAF /* AppDelegate.swift */,
 				BC929A681BCEC59A008F5CAF /* ViewController.swift */,
 				BC929A6A1BCEC59A008F5CAF /* Main.storyboard */,
-				BC436F891BD04565004C4545 /* SportsViewController.swift */,
+				BCAB28EA1BD180AA004C82EA /* Article.swift */,
+				BC436F891BD04565004C4545 /* ArticleViewController.swift */,
 				BC929A6D1BCEC59A008F5CAF /* Images.xcassets */,
 				BC929A6F1BCEC59A008F5CAF /* LaunchScreen.xib */,
 				BC929A641BCEC59A008F5CAF /* SWRevealViewController */,
@@ -228,9 +231,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCAB28EB1BD180AA004C82EA /* Article.swift in Sources */,
 				BC929A691BCEC59A008F5CAF /* ViewController.swift in Sources */,
 				BC929A671BCEC59A008F5CAF /* AppDelegate.swift in Sources */,
-				BC436F8A1BD04565004C4545 /* SportsViewController.swift in Sources */,
+				BC436F8A1BD04565004C4545 /* ArticleViewController.swift in Sources */,
 				BC929A891BCECD67008F5CAF /* SWRevealViewController.m in Sources */,
 				BC186D551BCF13C000DBB92E /* NewsViewController.swift in Sources */,
 				BC436F8C1BD05955004C4545 /* HomeViewController.swift in Sources */,
