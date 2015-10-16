@@ -10,10 +10,15 @@ import UIKit
 
 class ArticleViewController: UIViewController {
     @IBOutlet weak var menuButton: UIBarButtonItem!
+    @IBOutlet weak var textDetails: UITextView!
+    @IBOutlet weak var mainText: UITextView!
 
+    @IBOutlet weak var titleLabel: UILabel!
+    
     @IBOutlet weak var imageScroll: UIScrollView!
     @IBOutlet weak var mainScroll: UIScrollView!
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         if self.revealViewController() != nil {
             menuButton.target = self.revealViewController()
@@ -22,7 +27,10 @@ class ArticleViewController: UIViewController {
         }
         mainScroll.contentSize.height = 1000
         imageScroll.contentSize.width=1000
-        
+        var article = Article()
+        titleLabel.text = article.title
+        textDetails.text = "Author: " + article.author
+        mainText.text = article.text
         
     }
 
