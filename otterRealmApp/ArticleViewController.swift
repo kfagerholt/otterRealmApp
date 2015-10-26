@@ -25,11 +25,11 @@ class ArticleViewController: UIViewController {
             menuButton.action = "revealToggle:"
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
-        mainScroll.contentSize.height = 1000
+        mainScroll.contentSize.height = 1500
         imageScroll.contentSize.width=1000
         var article = Article()
         titleLabel.text = article.title
-        textDetails.text = "Author: " + article.author
+        textDetails.text = "Author: " + article.author + "\n" + "Date: " + article.date
         mainText.text = article.text
         
     }
